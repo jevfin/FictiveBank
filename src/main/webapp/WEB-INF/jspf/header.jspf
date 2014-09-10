@@ -1,0 +1,67 @@
+<%-- 
+    Document   : header.jspf
+    Created on : Sep 7, 2014, 
+    Author     : Jevgeni
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="./css/fictivebank.css">
+              <title></title>
+    </head>
+    <body>   
+        <div id="header">
+            <div id="headerbar">
+                <div class="headerwidget">
+                    [language toggle]
+                </div>
+                <%--                    <div class="headerwidget">
+                    [login_password button]
+                </div>
+                <div class="headerwidget">
+                    [login_name button]
+</div> --%>
+            </div>
+            <a href="index.jsp">
+                <img src="img\fictivebanklogo.png" id="logo" alt="Fictive Bank logo">
+            </a>
+            <div id="logoText">
+               FictiveBank
+            </div>
+        </div>
+        <div id="indexleftcolumn">
+
+            <div id="dailybanking">Everyday banking</div> 
+            <a href="#" id="payment" class="leftcolumnbtn">
+                Payment
+            </a>
+            <a href="#" id="accountbalance" class="leftcolumnbtn">
+                Account balance 
+            </a>
+            <a href="#" id="totaloverview"  class="leftcolumnbtn">
+                Total overview
+            </a>
+            <%--  <form action="payment" method="post">
+             <input type="button"
+                    name="paymentbtn"
+                    value="Payment">
+
+            </form>
+            <form action="accountbalance" method="post">
+                <input type="button"
+                       name="accountbalancebtn"
+                       value="Account balance">
+            </form>
+            <form action="totaloverview" method="post">
+                <input type="button"
+                       name="total overviewbtn"
+                       value="Total overview">
+</form> --%>
+
+
+
+        </div>
+

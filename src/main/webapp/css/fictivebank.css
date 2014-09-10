@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /*width: 850px;*/
+    text-align: center;
+    margin: 0 60px;
+    /*margin-right: 120px;*/
+    margin-top: -10px;
+    height: 100%;
+    /*background: navy;*/
+}
+#main { 
+    background: #ccc;
+}
+
+#header {
+    height: 200px;
+    /*width: 100%;*/
+    background-image: url(../img/money.png);
+    /*background: aliceblue;*/
+}
+#logo{
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 80px;
+    }
+#logoText{
+    /*height: 150px;*/
+    /*width: 600px;*/
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: serif, fantasy, monospace;
+    font-size: 100px;
+    font-weight: bold;
+    color: royalblue;
+    opacity: 0.8;
+}
+
+#headerbar{
+    height: 50px;
+    width:  850px;
+    float:  right;
+    background: whitesmoke;
+    opacity: 0.9;
+}
+
+.headerwidget{
+    width:  194px;
+    margin: 10px 2px;
+    font-size: small;
+    float: right;
+    line-height: 25px;
+    background: mintcream;
+}
+
+#footer {
+    height: 100px;
+    color: whitesmoke; 
+    /*background: rgba(4,72,107,0.7); #04486b*/
+    background-image: radial-gradient(rgba(102,102,102,1),rgba(0,79,255,0.7)) ;
+}
+
+hr{
+    height: 25px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+#indexleftcolumn {
+    height: 425px;
+    width: 200px;
+    margin-top: 50px;
+    float: left;
+    background: aliceblue;
+}
+#dailybanking{
+    background: #DCDEF1;
+    padding: 1em 0;
+    opacity: 0.7;
+}
+.leftcolumnbtn{
+    width: 200px;
+    height: 10px;
+    font-size: medium;
+    padding: 1em 0;
+    border-bottom: 1px solid #04486b;
+    background-image: radial-gradient(rgba(0,79,255,0.3),rgba(102,102,102,0.5)) ;
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+    } 
+    .leftcolumnbtn:hover{
+       background-image: radial-gradient(rgba(0,79,255,0.8),rgba(102,102,102,0.5)) ;
+    }
+
+.indexrightcolumn {
+    height:  425px;
+    width: auto;
+    margin-top: 50px;
+    margin-left: 200px;
+    /*border-left: 1px solid #0064c8 ;*/
+    /*border-right: 1px solid #0064c8 ;*/
+    float:  bottom;
+    display: block;
+    /*background: #DCDEFA;*/
+    background: white;
+    border: solid  rgba(0,100,200,0.1) 4px;/*#0064c8*/
+    /*border-radius: 1%;*/
+    padding-top: 20px;
+}
+/* createaccount.jps*/
+#createaccounttbl{
+    text-align: left;
+    margin-left: 20%;   
+    
+}
+#logininsert{
+    float: right;
+    margin-top: 1%;
+}
+.alignleft{
+    text-align: left;
+    margin-left: 1%;
+    padding-bottom: 0.5%;
+}
+.tablebgd{
+    background: #EBEBFF;
+}
+.tablewide{
+    width: 100%;
+}
+.tableheaders{
+    background: #DCDEFF;
+}
+.white{
+    background: whitesmoke;
+}
+.width250{
+    width: 250px;
+}
+.padding4em{
+    padding: 6em;
+}
